@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Instagram - alpernai</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">  </head>
+  <body>
+    <div class="container-fluid">
+        <!-- Nav Bar Brand -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container align-left">
+                <a class="navbar-brand" href="#">
+                    <i class="fab fa-instagram align-middle" style="font-size:30px;"></i>
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="Logo" width="100" height="100" class="d-inline-block img-fluid align-left">
+                  
+                </a>
+<!-- TABS -->
+               
+                <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-success me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a new post</button>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-gear"></i>
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                      <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                      <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+                      <div class="dropdown-divider"></div>
+                      <li><a class="dropdown-item" href="#">Log out</a></li>
+                    </ul>
+                  </div>
+              </div>        </nav>
+            </div>
+
+              <!-- TAB CONTROL-GRID -->
+
+              <ul class="nav nav-tabs d-flex justify-content-center mt-2 id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                    <i class="fa-solid fa-table-cells"></i>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                    <i class="fa-solid fa-square"></i>
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                    <!--  -->
+                    <div class="div-flex">
+                    <!-- 1ST GRID ROW -->
+                        <div class="card-group border-0">
+                        <div class="card border-0">
+                          <img src="https://picsum.photos/id/237/200/200" class="card-img mx-2 my-2 bg-transparent" alt="...">
+                        </div>
+                        <div class="card border-0">
+                          <img src="https://picsum.photos/id/255/200/200" class="card-img mx-2 my-2 bg-transparent" alt="...">
+                        </div>
+                        <div class="card border-0">
+                          <img src="https://picsum.photos/id/291/200/200" class="card-img mx-2 my-2 bg-transparent" alt="...">
+                        </div>
+                      </div>
+                    <!-- 2nd Grid Row -->
+                      <div class="card-group border-0">
+                        <div class="card border-0">
+                          <img src="https://fastly.picsum.photos/id/384/200/200.jpg?hmac=TAsUnIQnfLj13hjjp8604_rXNHrqCGlB2K8UQoWt1aM" class="card-img mx-2 my-2 bg-transparent" alt="...">
+                        </div>
+                        <div class="card border-0">
+                          <img src="https://fastly.picsum.photos/id/480/200/200.jpg?hmac=q_kzh_8Ih85_5t_jN3rcD3npeNBLA41oDGtQZVkmmYs" class="card-img mx-2 my-2 bg-transparent" alt="...">
+                        </div>
+                        <div class="card border-0">
+                          <img src="https://picsum.photos/id/282/200/200" class="card-img mx-2 my-2 bg-transparent" alt="...">
+                        </div>
+                      </div>
+                      <!-- 3rd GRID ROW  -->
+                      <div class="card-group border-0">
+                        <div class="card border-0">
+                          <img src="https://fastly.picsum.photos/id/929/200/200.jpg?hmac=V-NHF1GoUllni1jU8FFUECP1jZUGTYZRxwTT-OkI9Fw" class="card-img mx-2 my-2 bg-transparent" alt="...">
+                        </div>
+                        <div class="card border-0">
+                          <img src="https://picsum.photos/id/212/200/200" class="card-img mx-2 my-2 bg-transparent" alt="...">
+                        </div>
+                        <div class="card border-0">
+                          <img src="https://picsum.photos/id/225/200/200" class="card-img mx-2 my-2 bg-transparent" alt="...">
+                        </div>
+                      </div>
+                 
+                    </div>
+                        </div>
+                        
+                 
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <!-- Tarjetas de 1 en 1 -->
+                    <div class="container-fluid bg-light">
+                    <div class="row">
+                    <div class="card my-4 mx-auto" style="width: 600px;">
+                        <div class="row justify-content-between align-items-center p-3">
+                            <h5 class="col-10 card-title mb-0">
+                                Mi perro viéndome inocente
+                            </h5>
+                            <h5 class="col-2 card-text">07/07</h5>
+                        </div>
+                            <img src="https://picsum.photos/id/237/200/200"  alt="...">
+                            <p class="px-3 my-2"><strong>78 likes</strong></p>
+                            <p class="px-3">En estas vacaciones, no faltaron las fotos a mi perro.</p>
+                    
+
+                        </div>
+
+                   
+
+                    </div>
+                <!-- 2a tarjeta -->
+                <div class="row">
+                    <div class="card my-4 mx-auto" style="width: 600px;">
+                        <div class="row justify-content-between align-items-center p-3">
+                            <h5 class="col-10 card-title mb-0">
+                                Camino a la cabaña
+                            </h5>
+                            <h5 class="col-2 card-text">07/08</h5>
+                        </div>
+                            <img src="https://picsum.photos/id/255/200/200"  alt="...">
+                            <p class="px-3 my-2"><strong>89 likes</strong></p>
+                            <p class="px-3">El camino se veía tenebroso pero llegamos bien</p>
+                    
+
+                        </div>
+
+                   
+
+                    </div>
+                <!-- 3a tarjeta -->
+                <div class="row">
+                    <div class="card my-4 mx-auto" style="width: 600px;">
+                        <div class="row justify-content-between align-items-center p-3">
+                            <h5 class="col-10 card-title mb-0">
+                                Perdidos en la noche
+                            </h5>
+                            <h5 class="col-2 card-text">07/09</h5>
+                        </div>
+                            <img src="https://picsum.photos/id/291/200/200"  alt="...">
+                            <p class="px-3 my-2"><strong>43 likes</strong></p>
+                            <p class="px-3">Nos perdimos buscando a Luis</p>
+                    
+
+                        </div>
+
+                   
+
+                    </div>
+<!-- 4a tarjeta -->
+<div class="row">
+    <div class="card my-4 mx-auto" style="width: 600px;">
+        <div class="row justify-content-between align-items-center p-3">
+            <h5 class="col-10 card-title mb-0">
+                Agua en el rio
+            </h5>
+            <h5 class="col-2 card-text">07/10</h5>
+        </div>
+            <img src="https://fastly.picsum.photos/id/384/200/200.jpg?hmac=TAsUnIQnfLj13hjjp8604_rXNHrqCGlB2K8UQoWt1aM"  alt="...">
+            <p class="px-3 my-2"><strong>95 likes</strong></p>
+            <p class="px-3">El agua del río estaba muy fría.</p>
+    
+
+        </div>
+
+   
+
+    </div>
+    <!-- 5a tarjeta -->
+    <div class="row">
+        <div class="card my-4 mx-auto" style="width: 600px;">
+            <div class="row justify-content-between align-items-center p-3">
+                <h5 class="col-10 card-title mb-0">
+                    Amanecer en la cabaña
+                </h5>
+                <h5 class="col-2 card-text">07/11</h5>
+            </div>
+                <img src="https://fastly.picsum.photos/id/480/200/200.jpg?hmac=q_kzh_8Ih85_5t_jN3rcD3npeNBLA41oDGtQZVkmmYs"  alt="...">
+                <p class="px-3 my-2"><strong>104 likes</strong></p>
+                <p class="px-3">Los amaneceres aunque frios, eran preciosos.</p>
+        
+
+            </div>
+
+       
+
+        </div>
+<!-- 6a tarjeta -->
+<div class="row">
+    <div class="card my-4 mx-auto" style="width: 600px;">
+        <div class="row justify-content-between align-items-center p-3">
+            <h5 class="col-10 card-title mb-0">
+                Cafecito en la terraza
+            </h5>
+            <h5 class="col-2 card-text">07/11</h5>
+        </div>
+            <img src="https://picsum.photos/id/282/200/200"  alt="...">
+            <p class="px-3 my-2"><strong>123 likes</strong></p>
+            <p class="px-3">El descanso era importante y la vista no estuvo nada mal.</p>
+    
+
+        </div>
+
+   
+
+    </div>
+<!-- 7a tarjeta -->
+<div class="row">
+    <div class="card my-4 mx-auto" style="width: 600px;">
+        <div class="row justify-content-between align-items-center p-3">
+            <h5 class="col-10 card-title mb-0">
+                Montañas misteriosas
+            </h5>
+            <h5 class="col-2 card-text">07/12</h5>
+        </div>
+            <img src="https://fastly.picsum.photos/id/929/200/200.jpg?hmac=V-NHF1GoUllni1jU8FFUECP1jZUGTYZRxwTT-OkI9Fw"  alt="...">
+            <p class="px-3 my-2"><strong>215 likes</strong></p>
+            <p class="px-3">Al avanzar por el sendero nos encontramos con esta misteriosa vista.</p>
+    
+
+        </div>
+
+   
+
+    </div>
+<!-- 8a tarjeta -->
+<div class="row">
+    <div class="card my-4 mx-auto" style="width: 600px;">
+        <div class="row justify-content-between align-items-center p-3">
+            <h5 class="col-10 card-title mb-0">
+                Regreso a la normalidad
+            </h5>
+            <h5 class="col-2 card-text">07/13</h5>
+        </div>
+            <img src="https://picsum.photos/id/212/200/200"  alt="...">
+            <p class="px-3 my-2"><strong>48 likes</strong></p>
+            <p class="px-3">Ya de regreso, la ciudad estaba como la dejamos.</p>
+    
+
+        </div>
+
+   
+
+    </div>
+<!-- 9a tarjeta -->
+<div class="row">
+    <div class="card my-4 mx-auto" style="width: 600px;">
+        <div class="row justify-content-between align-items-center p-3">
+            <h5 class="col-10 card-title mb-0">
+                Al fin en casa
+            </h5>
+            <h5 class="col-2 card-text">07/14</h5>
+        </div>
+            <img src="https://picsum.photos/id/225/200/200"  alt="...">
+            <p class="px-3 my-2"><strong>35 likes</strong></p>
+            <p class="px-3">Pero pudimos llevarnos un poco de ese te que sabía tan bueno.</p>
+    
+
+        </div>
+
+   
+
+    </div>
+<!-- ultimos divs -->
+
+                </div>
+                
+                </div>
+
+<!------------ modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Caption:</p>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Add the caption of your post here</label>
+            <button type="button" class="btn btn-outline-secondary mt-2">
+              <i class="fa-solid fa-camera"></i> 
+            </button>
+            <button type="button" class="btn btn-outline-secondary mt-2">
+              <i class="fa-solid fa-location-dot"></i>
+            </button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Publish</button>
+        </div>
+      </div>
+    </div>
+
+              </div>
+          
+              
+<script src="https://kit.fontawesome.com/509c179d58.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </body>
+</html>
